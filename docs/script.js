@@ -7,8 +7,6 @@ var setColorpickerDefaults = function() {
             preset: 'small thin',
             previewSize: 24,
             onChange: function() {
-                console.log(this)
-                console.log(this.toString())
                 document.documentElement.style.setProperty(this.targetElement.name, this.channels.r+', '+this.channels.g+', '+this.channels.b);
             }
         };
