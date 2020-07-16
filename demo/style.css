@@ -1,0 +1,71 @@
+/*Base CSS Variables*/
+:root {
+    --purple_500: 111, 66, 193;
+    --purple_400: 131, 92, 202;
+    --purple_600: 88, 51, 156;
+    --purple_0: 255, 255, 255;
+    --purple_800: 49, 29, 87;
+    --purple_900: 32, 18, 56;
+    --purple_50: 236, 236, 246;
+    --purple_100: 222, 211, 241;
+    --purple_200: 200, 183, 231;
+    --purple_300: 178, 153, 222;
+    --purple_700: 68, 40, 120;
+    --purple_1000: 4, 2, 7;
+
+    --gray_500: 129, 129, 130;
+    --gray_400: 147, 147, 147;
+    --gray_600: 104, 104, 104;
+    --gray_0: 254, 254, 254;
+    --gray_800: 58, 58, 58;
+    --gray_900: 24, 27, 30;
+    --gray_50: 241, 241, 241;
+    --gray_100: 226, 226, 226;
+    --gray_200: 206, 208, 210;
+    --gray_300: 185, 187, 190;
+    --gray_700: 80, 80, 80;
+    --gray_1000: 0, 0, 0;
+
+    --primary_500: var(--purple_500);
+    --primary_400: var(--purple_400);
+    --primary_600: var(--purple_600);
+    --primary_0: var(--purple_0);
+    --primary_800: var(--purple_800);
+    --primary_900: var(--purple_900);
+    --primary_50: var(--purple_50);
+    --primary_100: var(--purple_100);
+    --primary_200: var(--purple_200);
+    --primary_300: var(--purple_300);
+    --primary_700: var(--purple_700);
+    --primary_1000: var(--purple_1000);
+}
+
+@media (prefers-color-scheme: dark) {
+    :root {
+        --purple_500: 121, 76, 203;
+        --purple_600: 131, 92, 202;
+        --purple_400: 88, 51, 156;
+        --purple_1000: 255, 255, 255;
+        --purple_200: 49, 29, 87;
+        --purple_100: 32, 18, 56;
+        --purple_900: 222, 211, 241;
+        --purple_50: var(--purple_100);
+        --purple_800: 200, 183, 231;
+        --purple_700: 178, 153, 222;
+        --purple_300: 68, 40, 120;
+        --purple_0: 4, 2, 7;
+
+        --gray_500: 129, 129, 130;
+        --gray_600: 147, 147, 147;
+        --gray_400: 104, 104, 104;
+        --gray_1000: 254, 254, 254;
+        --gray_200: 58, 58, 58;
+        --gray_100: 24, 27, 30;
+        --gray_900: 226, 226, 226;
+        --gray_50: var(--gray_100);
+        --gray_800: 206, 208, 210;
+        --gray_700: 185, 187, 190;
+        --gray_300: 80, 80, 80;
+        --gray_0: 0, 0, 0;
+    }
+}

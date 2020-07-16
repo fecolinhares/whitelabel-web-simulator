@@ -1,0 +1,12 @@
+{
+  "name": "whitelabel-simulator",
+  "version": "1.0.0",
+  "description": "A study to test how browsers can handle a runtime customizable color palette",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "private": true
+}
