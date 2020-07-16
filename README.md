@@ -5,7 +5,7 @@ Using a custom bootstrap (by [@Hermanhasawish](https://medium.com/@Hermanhasawis
 
 ### Everything you need can be founded on __docs__ folder.
 
-## [Go to the Playground](https://fecolinhares.github.io/whitelabel-web-simulator/docs/index.html)
+## [Go to the Playground](https://fecolinhares.github.io/whitelabel-web-simulator/)
 
 ## Built With
 
