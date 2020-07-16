@@ -3,7 +3,9 @@ Just a very simple proof of concept of a Whitelabel Webpage Simulator with all c
 
 Using a custom bootstrap (by [@Hermanhasawish](https://medium.com/@Hermanhasawish/how-i-repainted-bootstrap-without-sass-d789f41aa74b) replacing all colors with css variables) and [jscolor](https://jscolor.com/)
 
-### Everything you need can be founded on __demo__ folder.
+### Everything you need can be founded on __docs__ folder.
+
+## [Go to the Playground](https://fecolinhares.github.io/whitelabel-web-simulator/docs/index.html)
 
 
 ## Built With

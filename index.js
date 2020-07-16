@@ -3,7 +3,7 @@ const http = require('http'),
       path = require('path'),
       fs = require('fs')
 
-var staticBasePath = __dirname + '/demo';
+var staticBasePath = __dirname + '/docs';
 
 const requestListener = function (req, res) {
     var resolvedBase = path.resolve(staticBasePath);
